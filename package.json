@@ -4,7 +4,7 @@
   "description": "a collection of useful es6-shims for Extendscript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "test/run",
     "bundle": "node bin/concat.js"
   },
   "repository": {
@@ -22,7 +22,8 @@
     "Fabian Morón Zirfas <fabian.moron.zirfas@gmail.com> (http://fabianmoronzirfas.me)",
     "EugenTepin",
     "andyinabox",
-    "Michael J. Ryan <tracker1@gmail.com> (https://github.com/tracker1)"
+    "Michael J. Ryan <tracker1@gmail.com> (https://github.com/tracker1)",
+    "Shawn Pyle (https://github.com/shawnpyle)"
   ],
   "license": "MIT",
   "bugs": {
@@ -30,7 +31,7 @@
   },
   "homepage": "https://github.com/ExtendScript/extendscript-es6-shim#readme",
   "devDependencies": {
-    "cat": "^0.2.0"
+    "jasminejsx": "^0.4.0"
   },
   "directories": {
     "test": "test"
